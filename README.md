@@ -161,8 +161,8 @@ We include the `ghi` command. Try `ghi list` and have fun managing issues from c
 
 ## Vim - What's included?
 
- * [Navigation - NERDTree, EasyMotion, CtrlP and more](doc/vim/navigation.md)
- * [Text Objects - manipulate ruby blocks, and more](doc/vim/textobjects.md)
+ * [Navigation - NERDTree, CtrlP and more](doc/vim/navigation.md)
+ * [Text Objects](doc/vim/textobjects.md)
  * [Code manipulation - rails support, comments, snippets, highlighting](doc/vim/coding.md)
  * [Utils - indents, paste buffer management, lots more](doc/vim/utils.md)
  * [General enhancements that don't add new commands](doc/vim/enhancements.md)
@@ -253,17 +253,6 @@ of plugins above to learn more.
  * `:Wrap` - wrap long lines (e.g. when editing markdown files)
  * `Cmd-/` - toggle comments (usually gcc from tComment) (`Alt` in Linux)
  * `gcp` (comment a paragraph)
-
-#### Rails & Ruby
-
- * `,vv` and `,cc` to switch between view and controller - these are maps to :Rcontroller and :Rview. Explore the :R<Tab> family of commands for more fun from rails.vim!
- * `,rs` and `,rl` to run rspec or a spec line in iTerm (check iTerm window for results)
- * `,ss` and `,sl` for the same using `spring rspec` which makes your Rails specs faster by caching the Rails env (must have spring gem installed)
- * vim-ruby-refactoring - try `,rem`, `,rel` to extract methods or let statements
- * `Ctrl-s` - Open related spec in a split. Similar to :A and :AV from rails.vim but is also aware of the fast_spec dir and faster to type
- * `:Bopen [gem name]` to navigate to a gem (@tpope/vim-bundler)
- * `,gcp` - Grep Current Partial to find references to the current view partial
- * `,orb` - outer ruby block. takes you one level up from nested blocks (great for rspec)
 
 #### Vim Dev
 
